@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: vpromc
   replicas: 1
-  templates:
+  template:
     metadata:
       labels:
         app: vpromc
